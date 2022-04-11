@@ -6814,7 +6814,7 @@ span.overlay {
 	text-align: center;
 	display: block;
 	width: 100px;
-	background: rgba(var(--primary-color-rgb), .8);
+	background: rgba(74, 162, 205, .8);
 	position: absolute;
 	opacity: .75;
 	z-index:500;
