@@ -218,7 +218,8 @@ header div#logo a{
 	color:#ffffff;
 }
 header.header-mobile div#logo a{
-	color:#35404e;
+	/* color:#35404e; */
+
 }
 header .logo-2 {
 	display: none;
@@ -714,17 +715,19 @@ header .header-col.mid .social-icons{
 	cursor: pointer;
 	color:#fff;
 	margin-left:20px;
+
 }
 #menu-btn:before {
 	font-family: FontAwesome;
 	content: "\f0c9";
 	font-size: 20px;
+	transition: .4s;
 }
 #menu-btn:hover {
 	background: #fff;
 }
 #menu-btn:hover:before {
-	color: #222;
+	color: #333;
 }
 
 #menu-btn.s1{
@@ -739,7 +742,7 @@ header.header-mobile.header-light, header.header-mobile.header-light #menu-btn, 
 	background: none;
 }
 header.header-mobile #menu-btn {
-	color: #222;
+	color: #8888;
 }
 
 /* ================================================== */
@@ -978,6 +981,7 @@ header.header-mobile .logo-2 {
 }
 header.header-mobile.header-light {
 	background: #fff;
+	background-color: rgb(31, 31, 31);
 }
 header.header-mobile #mainmenu ul{
 	padding:0;
@@ -2489,7 +2493,7 @@ header.smaller.scroll-light div#logo a {
 	margin-top:0;
 	font-family: "Poppins";
 	font-weight: bold;
-	color: #35404e;
+	/* color: #35404e; */
 }
 footer h1, footer h2, footer h4, footer h4, footer h5, footer h6 {
 	color: #fff;
