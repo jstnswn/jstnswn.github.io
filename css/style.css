@@ -57,7 +57,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@400;500;600;700;900&display=swap');
 /* ================================================== */
 
 
@@ -75,7 +76,6 @@
 
 /* body */
 
-
 /* ================================================== */
 
 html {
@@ -85,7 +85,9 @@ html {
 	background: #fff;
 }
 body {
-	font-family:"Nunito", Helvetica, Arial, sans-serif;
+	/* font-family:"Nunito", Helvetica, Arial, sans-serif; */
+	font-family: 'Roboto',
+	sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #515c6a;
@@ -2119,16 +2121,18 @@ a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
 a.btn-custom,a.btn-custom:active,a.btn-custom:focus,a.btn-custom:visited,
 .btn-custom {
 	color: #fff;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	padding: 12px 30px;
+	/* border-radius: 8px; */
+	/* -moz-border-radius: 8px; */
+	/* -webkit-border-radius: 8px; */
+	padding: 8px 18px;
 	min-width: 120px;
 	outline:0;
 	font-weight:bold;
 	text-decoration:none;
 	text-transform:none;
 	font-size:14px;
+
+	/* background-color: black; */
 }
 
 a.btn-border{
@@ -8477,7 +8481,7 @@ i.btn-action-hide {
 	height: 32px;
 	text-align: center;
 	line-height: 30px;
-	background: #f6f6f6;
+	/* background: #f6f6f6; */
 	cursor: pointer;
 	border: 0;
 	border-radius: 2px;
@@ -8485,10 +8489,15 @@ i.btn-action-hide {
 	transition: opacity 0.2s ease-out;
 	outline: none;
 	opacity: 0;
+
+
+
+	border-radius: 50%;
+	/* background-color: white; */
 }
-#back-to-top:hover {
+/* #back-to-top:hover {
 	background: #111;
-}
+} */
 #back-to-top.show {
 	bottom: 40px;
 	opacity: 1;
@@ -8500,7 +8509,7 @@ i.btn-action-hide {
 	font-family: "FontAwesome";
 	font-size: 14px;
 	content: "\f176";
-	color: #fff;
+	color: black;
 	position: relative;
 	margin: 5px;
 }
@@ -10821,4 +10830,73 @@ a, img {
 
 .text-center p {
 	color: white;
+}
+
+.my-btn {
+	/* line 2122 */
+	/* border-radius: 0; */
+	/* color: black; */
+	border: 1px solid purple;
+	/* background-color: black; */
+}
+
+a.btn-custom,
+a.btn-custom:visited,
+.btn-custom {
+	background-color: black;
+	/* margin-top: 500px; */
+	margin-right: 12px;
+}
+
+a.btn-custom.two,
+a.btn-custom.two:visited,
+.btn-custom.two {
+	background-color: white;
+	color: black;
+}
+
+.subheader p.subheader-text {
+	color: black;
+	margin-bottom: 75px;
+}
+
+
+.h1.header,
+.h2.subheader,
+.subheader p.subheader-text {
+	font-size: 20px;
+	font-family: 'Source Code Pro',
+	monospace;
+	font-weight: 400;
+}
+
+.h1.header {
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+.h2.subheader {
+	margin-bottom: -3px;
+}
+
+#menuside.scrollnav .active {
+	color: rgb(203, 150, 47);
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Source Code Pro',
+	monospace;
+	font-size: 20px;
+}
+
+h1, h2 {
+	font-weight: 900;
+}
+
+#back-to-top.custom-back-to-top {
+	background: white;
+	color: black;
+}
+
+#back-to-top.custom-back-to-top:hover {
+	background: black;
 }
