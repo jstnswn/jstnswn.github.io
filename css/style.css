@@ -88,7 +88,7 @@ body {
 	/* font-family:"Nunito", Helvetica, Arial, sans-serif; */
 	font-family: 'Roboto',
 	sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	color: #515c6a;
 	line-height: 1.7em;
@@ -113,6 +113,7 @@ body .owl-stage .owl-item {
 a,a:hover{
 	text-decoration:none;
 }
+
 
 /* ================================================== */
 
@@ -10899,4 +10900,16 @@ h1, h2 {
 
 #back-to-top.custom-back-to-top:hover {
 	background: black;
+}
+
+.header-container {
+	margin-bottom: 170px;
+}
+
+p.gray-text {
+	color: #DBDBDB;
+}
+
+.gray-text p {
+	color: #DBDBDB;
 }
